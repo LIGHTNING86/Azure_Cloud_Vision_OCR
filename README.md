@@ -3,12 +3,20 @@ This project utilizes FastAPI and Azure Computer Vision to extract text from ima
 
 ## Features
 
-- Upload image files to extract text and draw bounding boxes.
-- Returns the processed image with bounding boxes and the extracted text.
+- Extract text from images using Azure Computer Vision OCR.
+- Draw bounding boxes around the detected text in the images.
+- Simple API endpoint for uploading image files.
 
 ## Setup
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fastapi-azure-computer-vision.git
+git clone https://github.com/LIGHTNING86/Azure_Cloud_Vision_OCR.git
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
