@@ -20,3 +20,12 @@ git clone https://github.com/LIGHTNING86/Azure_Cloud_Vision_OCR.git
 ```bash
 pip install -r requirements.txt
 ```
+3. Set up Azure Computer Vision:
+
+Get your Azure Cognitive Services subscription key and endpoint and update them in the code.
+
+4. Run the FastAPI server:
+
+```bash
+uvicorn main:app --reload
+```
