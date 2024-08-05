@@ -9,8 +9,8 @@ import time
 import cv2
 
 # Set up Azure Computer Vision credentials
-subscription_key = '4dcf389a09b9486a9ec866de7d9f4a54'
-endpoint = 'https://azure-vision-ai-testing.cognitiveservices.azure.com/'
+subscription_key = '<your_subscription_key>'
+endpoint = '<your_endpoint_link>'
 
 # Initialize the FastAPI app
 app = FastAPI()
